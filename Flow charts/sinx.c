@@ -6,7 +6,7 @@ int main(void){
 
     double x;
 
-    printf("enter x: ");
+    printf("enter x (angle in radians): ");
     scanf("%lf", &x);
 
     int n = 2;
