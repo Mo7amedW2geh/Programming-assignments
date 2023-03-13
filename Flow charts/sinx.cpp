@@ -5,7 +5,7 @@ int main() {
 
     double x;
 
-    std::cout << "enter x: ";
+    std::cout << "enter x(angle in radians): ";
     std::cin >> x;
 
     int n = 2;
