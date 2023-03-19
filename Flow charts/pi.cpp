@@ -15,8 +15,8 @@ int main() {
     }
     
     // instead "of t = (4 * std::pow(-1, n)) / (2*n + 1);"
-    // we add "pi = pi * 4"
-    pi = pi * 4
+    // we add "pi = pi * 4;"
+    pi = pi * 4;
      
         
     std::cout << pi << std::endl;
