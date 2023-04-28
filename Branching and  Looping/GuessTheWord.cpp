@@ -42,7 +42,7 @@ string getTheme() {
         }
     }
     else if (themeChoice == 3) {
-        string words[] = {"argentina", "canada", "china", "egypt", "france", "india", "japan", "russia", "spain", "united states"};
+        string words[] = {"canada", "china", "egypt", "france", "india", "japan", "russia", "spain"};
         wordListSize = 8;
         for (int i = 0; i < wordListSize; i++) {
             wordList[i] = words[i];
