@@ -69,6 +69,7 @@ string getTheme() {
     return getRandomWord(wordList, wordListSize);
 }
 
+// Prompts the user to choose a difficulty
 int getDifficulty() {
 
     const int easyMaxGuesses = 8;
