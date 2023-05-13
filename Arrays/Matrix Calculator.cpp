@@ -32,7 +32,15 @@ int main() {
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cout << "Invalid input. Please enter a positive integer for the number of cols: ";
     }
-
+    
+    //Start with zero matrix
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            matrix1[i][j] = 0;
+            matrix2[i][j] = 0;
+        }
+    }
+    
     //The main loop
     while (true) {
 
