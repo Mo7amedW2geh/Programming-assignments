@@ -30,7 +30,7 @@ int main() {
     while (!(cin >> cols) || cols <= 0) {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cout << "Invalid input. Please enter a positive integer for the number of cols: ";
+        cout << "Invalid input. Please enter a positive integer for the number of columns: ";
     }
     
     //Start with zero matrix
